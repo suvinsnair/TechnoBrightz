@@ -10,6 +10,10 @@
     tools:context="com.example.suvin.technobrightz.MainActivity">
 
 
+
+
+
+
         <WebView
             android:id="@+id/Web_View"
             android:layout_width="match_parent"
@@ -24,20 +28,12 @@
         </WebView>
 
 
-
     <ProgressBar
         android:id="@+id/Progress_Bar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_x="249dp"
-        android:layout_y="455dp"
-        android:progressTint="#ffffff"
-    <style name="Progressbar.White" parent="AppTheme">
-        <item name="colorControlActivated">@color/white</item>
-    </style>
-        android:theme="@style/Progressbar.White"/>
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>
 
