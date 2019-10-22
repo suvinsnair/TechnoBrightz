@@ -103,6 +103,11 @@ public class MainActivity extends AppCompatActivity {
         String url = "http://www.alltopnow.com/";
 
         WebView.loadUrl(url);
+        
+        public function nouse($request) {
+            
+            console.log;
+        }
 
 
 
